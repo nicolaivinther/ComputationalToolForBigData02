@@ -1,7 +1,7 @@
 import os
 import json
 from pprint import pprint
-
+#DU er en bussemand
 os.chdir("/Users/Nicolai/Dropbox/KU/10. Semester/Computational tool for big dataset")
 with open('pizza-train.json') as data_file:
     data = json.load(data_file)
