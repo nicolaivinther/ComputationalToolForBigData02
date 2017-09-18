@@ -2,7 +2,6 @@
 import os
 import json
 import re
-from pprint import pprint
 
 os.chdir("/Users/Nicolai/Dropbox/KU/10. Semester/Computational tool for big dataset")
 with open('pizza-train.json') as data_file:
@@ -63,6 +62,6 @@ for review in range(len(reviewlist)):
 print len(lists) # Print number of reviews
 print len(lists[5]) # Print number of uniqe words
 # Print all word counts from words in review six that appears at least once
-for index, value in enumerate(lists[5]):
+for index, value in enumerate(lists[5]):	
 	if value > 0:
 		print(index, value)

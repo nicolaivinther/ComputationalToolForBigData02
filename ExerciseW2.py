@@ -11,7 +11,6 @@ def aif(x,l):
 def bitstr(n):
     if n == 0: return [] # Base case of n = 0
     if n == 1: return [[0],[1]] # Base case of n = 1
-    if n == 2: return [[0,0],[0,1],[1,0],[1,1]] # Base case of n = 2
     else:
         # Using recursion to find the next bitstrings by taking the
         # previous bitstring twice. First time we add "0" in front of
